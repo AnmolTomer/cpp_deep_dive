@@ -34,7 +34,7 @@
 02. C++ Basics/04. var_literals
 *
 !*.c
-!*.cpp
+
 !Makefile
 .vscode/*
 !.vscode/settings.json
