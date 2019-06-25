@@ -32,8 +32,6 @@
 *.app
 .vscode/*
 
-*
-!*.c
 
 !Makefile
 .vscode/*
