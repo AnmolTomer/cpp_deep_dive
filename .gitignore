@@ -31,7 +31,7 @@
 *.out
 *.app
 .vscode/*
-02. C++ Basics/04. var_literals
+
 *
 !*.c
 
