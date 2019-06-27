@@ -83,7 +83,9 @@ int main()
     */
     /* Compound Conditional Statements : Made using logical operators && and ||. We can use these to join together
 multiple conditional statements.*/
+
     // Program to take age of a person and see whether he is young or not : Young if age >= 12 and <= 30
+    /*
     int age;
     cout << "Enter your age : ";
     cin >> age;
@@ -103,6 +105,25 @@ multiple conditional statements.*/
     {
         cout << "IMMORTAL SPOTTED ! Immortals ? Uhh...we don't do that here.";
     }
+ */
 
+    // Program to find the greatest of 3 integers using if-else-if ladder
+    int a, b, c;
+    cout << "Enter 3 numbers : ";
+    cin >> a >> b >> c;
+    if (a > b && a >> c)
+    {
+        cout << "Largest number is : " << a;
+    }
+    else if (b > c)
+    {
+        cout << "Largest number is : " << b;
+    }
+    else
+    {
+        cout << "Largest number is : " << c;
+    }
+    /*  In if else-if ladder program takes the maximum time to reach the last condition and due to this in C++ we have
+another alternative where we use switch case statements.*/
     return 0;
 }
