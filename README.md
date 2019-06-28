@@ -9,3 +9,6 @@
 **[02. C++ Basics<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/02.%20C%2B%2B%20Basics)**
 
 **[03. Conditional Statements<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/03.%20Conditional%20Statements)**
+
+**[04. Loops<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/04.%20Loops)**
+
