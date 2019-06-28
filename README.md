@@ -12,3 +12,4 @@
 
 **[04. Loops<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/04.%20Loops)**
 
+**[05. Arrays<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/05.%20Arrays)**
