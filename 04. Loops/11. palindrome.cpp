@@ -10,14 +10,20 @@ int main()
     int n, rev = 0;
     cout << "Enter a number : ";
     cin >> n;
-
-    while (n != 0)
+    int n1 = n;
+    while (n1 != 0)
     {
         int r;
-        r = n % 10;
+        r = n1 % 10;
         rev = rev * 10 + r;
-        n /= 10;
+        n1 /= 10;
     }
-    cout << "New number is : " << rev << endl;
+    if (n == rev)
+        cout << "Number " << n << " is a palindrome.";
+    else
+    {
+        cout << "Number " << n << " is not a palindrome.";
+    }
+
     return 0;
 }
