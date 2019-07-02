@@ -32,7 +32,7 @@
 *.app
 .vscode/*
 
-
+.idea/*
 !Makefile
 .vscode/*
 .vscode/settings.json
