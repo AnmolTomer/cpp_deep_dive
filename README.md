@@ -18,4 +18,4 @@
 
 **[07. Functions<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/07.%20Functions)**
 
-**[07. Intro to OOP<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/08.%20Intro%20to%20OOP)**
+**[08. Intro to OOP<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/08.%20Intro%20to%20OOP)**
