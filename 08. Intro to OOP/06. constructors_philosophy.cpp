@@ -41,14 +41,38 @@ public:
     {
         return breadth;
     }
+    /*Rectangle() // Non parameterized constuctor.
+    {           // Constructor has same name as class and they don't have any return type.
+        length = 0;
+        breadth = 0;
+    } 
+    */
+
+    // Rectangle(int l, int b)             // Parameterized Constructor
+    Rectangle(int l = 0, int b = 0) // Doing so compared to what is above is better as it eliminates use of non parameterized constructor by setting default values of l and b if no values are passed by user.
+    {
+        setLength(l); // Calling set length and set breadth as these functions have validation inside them
+        setBreadth(b);
+    }
+    Rectangle(Rectangle(&rect)) // Copy constructor : We pass in another constructor as parameter.
+    {
+        length = rect.length;
+        breadth = rect.breadth;
+    }
+    // As there are 3 functions with same names we can say these to be overloaded constructors. We can have many constructors.
 };
 int main()
 {
-    Rectangle r;
-    r.setLength(5);
-    r.setBreadth(10);
+    // Rectangle r; // Calls the non parameterized constuctor even r() can be used and sets length = 0 and breadth = 0
+    Rectangle r(10, 5); // Calls the parameterized constructor and sets length and breadth as 10 and 5 respt.
+
+    // r.setLength(5); // Not needed when you have constructor in place.
+    // r.setBreadth(10); // Not needed when you have constructor in place.
     cout << r.area();
     cout << r.getLength();
+    // Creating a new rectangle using copy constructor
+    Rectangle r2(r); // Create r2 by sending r. By sending Rectangle object r as parameter we create another Rectangle.
+    // r2 would also have length and breadth as 10 and 5 respt.
     return 0;
 }
 
@@ -70,4 +94,27 @@ first time when we create the object we should be able to set parameters like le
 
 So here we are planning to call a function which is automatically called when the object is created off of a class.
 So, here we see type of constructors and how to write constructors.
+
+When we create an object of rectangle class say object r, An object of rectangle is created called l and b.
+On creation of object, a function was there in the compiler which constructed the object.
+Every class will have a constructor. Compiler provided built-in constuctor is called as default constructor.
+Can we write our own constructor ? Yes, we can. 
+There are 3 different types of user defined constructor : 
+1. Non-parameterized constructor
+2. Parameterized constructor
+3. Copy Constuctor
+
+If we don't write any of the 3 constuctors above then the 4th kind default constructor is provided by compiler.
+
+COPY CONSTUCTOR : Say we went to a shop to buy a marker. On asking for marker you didn't specify brand, colour, kind etc.
+                Then it is only natural tendency of shop keeper to hand over the most sold marker or most common one.
+This was more like non parameterized kind of constructor.
+Next day, you go to the shop specify the brand, color, kind etc. for the marker and you get that one. This is more like
+parameterized constructor.
+
+Going to shop and showing to shopkeeper hey I want a marker like the one I am holding in my hand then shopkeeper sees
+the marker and gives you a copy of that marker. So this is like copy constructor. So if we have a rectangle object and
+we want to create another rectangle similar to what we have already then we use copy constructor. This is taken as
+by reference most of the times and not by value.
+
 */
