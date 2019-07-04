@@ -15,3 +15,7 @@
 **[05. Arrays<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/05.%20Arrays)**
 
 **[06. Pointers<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/06.%20Pointers)**
+
+**[07. Functions<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/07.%20Functions)**
+
+**[07. Intro to OOP<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/08.%20Intro%20to%20OOP)**
