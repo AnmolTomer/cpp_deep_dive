@@ -19,3 +19,7 @@
 **[07. Functions<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/07.%20Functions)**
 
 **[08. Intro to OOP<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/08.%20Intro%20to%20OOP)**
+
+**[09. Operator Overloading<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/09.%20Operator%20Overloading)**
+
+**[10. Inheritance<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/10.%20Inheritance)**
