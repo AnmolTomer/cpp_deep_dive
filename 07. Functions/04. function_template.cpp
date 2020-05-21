@@ -43,7 +43,7 @@ different data type that's all. Number of parameters are same as well but dataty
 From main if we call int c as above first function is called and float b calls the second function.
 
 If we notice the body of the function i.e. code/logic written is exactly same only datatype is different.
-So question arises... WHy to write same function twice when there is only a difference in data type ?
+So question arises... Why to write same function twice when there is only a difference in data type ?
 Or go into the hassle of function overloading ? Can't we just write a single function combining these 2 functions
 for any data type ? Yes we can. We do T for template in the above .
 

@@ -22,9 +22,9 @@ int main()
     p[2] = 420;     // Assigns 15 to second index memory location in heap section.
     cout << endl;
     cout << "The data stored in 2nd index at heap location is : " << p[2] << endl;
-    p = NULL; // If beforehand we assign p = NULL before deleting then we will lose track of the address which was
+    // p = NULL; // If beforehand we assign p = NULL before deleting then we will lose track of the address which was
     // assigned to array created by p and it will be there in memory even if we do not want the array as long as the
-    // program is runnign.
+    // program is running.
     delete[] p;
     p = NULL;
     // After delete we can do p = NULL meaning pointer p is not pointing anywhere and this is correct way to do it.

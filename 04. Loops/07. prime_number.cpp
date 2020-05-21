@@ -22,7 +22,7 @@ int main()
     }
     else
     {
-        std::cout << "Given number " << n << " is a prime number." << std::endl;
+        cout << "Given number " << n << " is a prime number." << endl;
     }
 
     return 0;

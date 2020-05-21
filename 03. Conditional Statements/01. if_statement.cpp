@@ -111,7 +111,7 @@ multiple conditional statements.*/
     int a, b, c;
     cout << "Enter 3 numbers : ";
     cin >> a >> b >> c;
-    if (a > b && a >> c)
+    if (a > b && a > c)
     {
         cout << "Largest number is : " << a;
     }

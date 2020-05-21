@@ -6,6 +6,7 @@ email : anmol3540@gmail.com
 #include <iostream>
 using namespace std;
 int search(int A[], int n, int key)
+
 {
     for (int i = 0; i < n; i++)
     {
@@ -22,11 +23,13 @@ int main()
     int number = 7;
     cout << "Elements of array are : " << endl;
     int i = 0;
+
     while (i != 7)
     {
         cout << Array[i] << "\t";
         i++;
     }
+
     cout << "\nEnter the element you want to search for : ";
     int k;
     cin >> k;

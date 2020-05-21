@@ -33,7 +33,7 @@ As we know that the address as value can only be stored by pointers so we make f
 definition above.
 
 This makes formal parameters as pointers to store address values and actual parameters passing their addresses to function.
-a is a pointers to x and b is a pointer to y. We won't be swapping the addersses but rather we swap the data inside
+a is a pointers to x and b is a pointer to y. We won't be swapping the addresses but rather we swap the data inside
 the function definition above main.
 a has address of x and b has address of y.
 *a means data of x. We do the swapping and due to formal parameters being pointers we swap or modify the actual parameters

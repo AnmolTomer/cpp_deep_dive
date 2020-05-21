@@ -48,7 +48,7 @@ int main()
 Here we learn about default arguments. Above are 2 functions with number of parameters being different.
 
 If we are ready to pass the third argument as zero then we do not need 1st function. 
-Can we combing 2 functions into 1 ? Yeah use default argument.
+Can we combine 2 functions into 1 ? Yeah use default argument.
 Using default argument we can eliminate function overloading for cases where datatype remains same but new function of
 same name is being written with only difference that being of number of parameters being passed. Instead set the parameters
 which you are unsure of use would pass or not as default inside the function.
