@@ -29,7 +29,7 @@
 
 **[11. Base Class Pointer Derived Class Object<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/11.%20Base%20Class%20Pointer%20Derived%20Class%20Object)**
 
-**[12. Polumorphism<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/12.%20Polymorphism)**
+**[12. Polymorphism<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/12.%20Polymorphism)**
 
 **[13. Friend and Static Member<br />](https://github.com/AnmolTomer/cpp_deep_dive/tree/master/13.%20Friend%20and%20Static%20Member)**
 
